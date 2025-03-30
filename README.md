@@ -1,4 +1,4 @@
-# Tutorias del G-22 Backend 🐍🚀
+# Tutorias del G-23 Backend 🐍🚀
 En este repositorio encontraras todas las sesiones de tutoria a lo largo del bootcamp
 
 ## Recursos Basicos
