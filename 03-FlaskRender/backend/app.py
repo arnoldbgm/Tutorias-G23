@@ -10,7 +10,8 @@ from routes.categoria_routes import CategoriaListResource
 app = Flask(__name__)
 # Vamos a conectarnos con nuestra base de datos (SQLAlchemy)
 # Debes de usar el config de tu instancia de Flask
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:root@localhost:5432/db_blogs_flask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Configuramos la base de datos
 db.init_app(app)
