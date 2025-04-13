@@ -1,6 +1,3 @@
-¡Perfecto! Aquí tienes la guía para crear un **formulario en React** que envía un solo campo por **POST** a un endpoint, siguiendo el estilo de documentación que me compartiste:
-
----
 
 # 📌 **Guía: Formulario simple en React con POST a una API REST**
 
