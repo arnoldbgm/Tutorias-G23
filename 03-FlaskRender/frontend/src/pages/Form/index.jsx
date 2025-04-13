@@ -12,7 +12,7 @@ const Form = () => {
     e.preventDefault() // Evita que se recargue la pagina
     // Paso 05: Enviar el formulario al backend
     try {
-      const response = await axios.post("http://127.0.0.1:5000/categorias", {
+      const response = await axios.post("https://tutorias-g23.onrender.com/categorias", {
         nombre: nombre
       })
       alert("Categoria creada")
